@@ -1,0 +1,89 @@
+ final View ver;
+
+        ver = (View) findViewById(R.id.view);
+
+        ver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View v) {
+
+                boolean  checked = ((View)ver).isClickable();
+                StringBuffer result = new StringBuffer();
+
+                if(checked){
+                    result.append("View : ").append("TRUE");
+                }else {
+                    result = new StringBuffer();
+                    result.append("View : ").append("FALSE");
+                }
+                Toast.makeText(ViewActivity.this, result.toString(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        Button buttonVoltar1 = (Button) findViewById(R.id.buttonVoltar1);
+
+        buttonVoltar1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(ViewActivity.this, MainActivity.class);
+                startActivity(it);
+            }
+        });
+
+
+      Button buttonProx = (Button) findViewById(R.id.buttonProx);
+
+                buttonProx.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, View_MainActivity.class);
+                startActivity(it);
+            }
+        });
+
+
+
+        Button buttonVoltar2 = (Button) findViewById(R.id.buttonVoltar2);
+
+        buttonVoltar2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent it = new Intent(ImagemViewActivity.this, MainActivity.class);
+                startActivity(it);
+            }
+        });
+
+
+
+
+ final WebView webView;
+
+
+
+        webView = (WebView) findViewById(R.id.webView1);
+
+        webView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View v) {
+
+                boolean  checked = ((WebView)webView).isClickable();
+                StringBuffer result = new StringBuffer();
+
+                if(checked){
+                    result.append("WebView : ").append("TRUE");
+                }else {
+                    result = new StringBuffer();
+                    result.append("WebView  : ").append("FALSE");
+                }
+                Toast.makeText(WebView_MainActivity.this, result.toString(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+
+--------------------------------------------
+
+
+        buttonPlay = (Button) findViewById(R.id.buttonPlay);
+
+        getWindow().setFormat(PixelFormat.UNKNOWN);
+
+        video = (WebView) findViewById(R.id.webView);

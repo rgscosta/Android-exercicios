@@ -46,12 +46,12 @@ public class ViewActivity extends AppCompatActivity {
 
         buttonVoltar1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Intent it = new Intent(ViewActivity.this, MainActivity.class);
+                startActivity(it);
 
 
             }
-        }); Intent it = new Intent(ViewActivity.this, MainActivity.class);
-        startActivity(it);
-
+        });
 
 
     }

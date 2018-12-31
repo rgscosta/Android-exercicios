@@ -22,7 +22,10 @@
         <activity android:name=".Widgtes.ImaViewActivity" />
         <activity android:name=".Widgtes.WebViewActivity" />
         <activity android:name=".Widgtes.CalendViewActivity" />
-        <activity android:name=".Widgtes.ProgressBarActivity"></activity>
+        <activity android:name=".Widgtes.ProgressBarActivity" />
+        <activity android:name=".Widgtes.VideoViewActivity" />
+        <activity android:name=".Widgtes.SeekBarActivity" />
+        <activity android:name=".Widgtes.RatingBarActivity"></activity>
     </application>
 
 </manifest>

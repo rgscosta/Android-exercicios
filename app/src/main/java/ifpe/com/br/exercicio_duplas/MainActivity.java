@@ -9,6 +9,9 @@ import android.widget.Button;
 import ifpe.com.br.exercicio_duplas.Widgtes.CalendViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ImaViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ProgressBarActivity;
+import ifpe.com.br.exercicio_duplas.Widgtes.RatingBarActivity;
+import ifpe.com.br.exercicio_duplas.Widgtes.SeekBarActivity;
+import ifpe.com.br.exercicio_duplas.Widgtes.VideoViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.WebViewActivity;
 
@@ -66,6 +69,33 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button buttonVideoView = (Button) findViewById(R.id.buttonVideoView);
+        buttonVideoView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, VideoViewActivity.class);
+                startActivity(it);
+            }
+        });
+
+
+        Button buttonSeekBar = (Button) findViewById(R.id.buttonSeekBar);
+        buttonSeekBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, SeekBarActivity.class);
+                startActivity(it);
+            }
+        });
+
+        Button buttonRatingBar = (Button) findViewById(R.id.buttonRatingBar);
+        buttonRatingBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, RatingBarActivity.class);
+                startActivity(it);
+            }
+        });
 
     }
 }

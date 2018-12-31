@@ -72,8 +72,8 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/buttonView"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="-73dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="-33dp"
         android:text="Calender View"
         android:textAllCaps="true"
         android:textStyle="bold" />
@@ -98,5 +98,37 @@
         android:layout_marginBottom="0dp"
         android:layout_toEndOf="@+id/textView2"
         android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonVideoView"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="221dp"
+        android:text="VideoView"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonVideoView"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/buttonVideoView"
+        android:text="SEERKBAR"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttoncalendView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="120dp"
+        android:text="RATINGBAR"
+        android:textStyle="bold" />
 
 </RelativeLayout>

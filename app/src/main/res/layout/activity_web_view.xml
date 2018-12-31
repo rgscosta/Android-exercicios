@@ -21,12 +21,12 @@
 
     <Button
         android:id="@+id/buttonVoltar4"
-        android:layout_width="88dp"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="271dp"
+        android:layout_marginStart="244dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="16dp"
         android:text="Voltar"

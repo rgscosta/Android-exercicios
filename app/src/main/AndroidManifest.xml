@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ifpe.com.br.exercicio_duplas">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -26,7 +27,9 @@
         <activity android:name=".Widgtes.ProgressBarActivity" />
         <activity android:name=".Widgtes.VideoViewActivity" />
         <activity android:name=".Widgtes.SeekBarActivity" />
-        <activity android:name=".Widgtes.RatingBarActivity"></activity>
+        <activity android:name=".Widgtes.RatingBarActivity" />
+        <activity android:name=".Native.HelloCameraActivity" />
+        <activity android:name=".Native.HelloPhoneActivity"></activity>
     </application>
 
 </manifest>

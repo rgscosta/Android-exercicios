@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import ifpe.com.br.exercicio_duplas.Native.HelloCameraActivity;
+import ifpe.com.br.exercicio_duplas.Native.HelloPhoneActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.CalendViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ImaViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ProgressBarActivity;
@@ -93,6 +95,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, RatingBarActivity.class);
+                startActivity(it);
+            }
+        });
+
+        Button buttonFoto = (Button) findViewById(R.id.buttonFoto);
+        buttonFoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, HelloCameraActivity.class);
+                startActivity(it);
+            }
+        });
+
+        Button buttonLigar = (Button) findViewById(R.id.buttonLigar);
+        buttonLigar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, HelloPhoneActivity.class);
                 startActivity(it);
             }
         });

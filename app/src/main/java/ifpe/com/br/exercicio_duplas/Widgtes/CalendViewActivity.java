@@ -17,16 +17,10 @@ public class CalendViewActivity extends AppCompatActivity {
 
 
     private Calendar calendario;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calend_view);
-
-
-
-
 
         Button buttonVoltar5 = (Button) findViewById(R.id.buttonVoltar5);
         buttonVoltar5.setOnClickListener(new View.OnClickListener() {
@@ -35,6 +29,5 @@ public class CalendViewActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
-
     }
 }

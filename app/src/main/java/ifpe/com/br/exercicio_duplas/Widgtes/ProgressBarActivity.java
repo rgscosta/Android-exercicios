@@ -28,7 +28,6 @@ public class ProgressBarActivity extends AppCompatActivity {
 
 
         Button buttonVoltar6 = (Button) findViewById(R.id.buttonVoltar6);
-
         buttonVoltar6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,8 +37,6 @@ public class ProgressBarActivity extends AppCompatActivity {
         });
 
         tProgressBar = (ProgressBar) findViewById(R.id.progressBar);
-
-
         final Thread timeThread = new Thread() {
 
             @Override

@@ -26,22 +26,17 @@ public class SeekBarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_seek_bar);
         inicializarVariaveis();
 
-
-
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
                 int progress = 0;
-
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progressValue, boolean fromUser) {
                     progress =  progressValue;
                     Toast.makeText(getApplicationContext(), "Carregando seekbar", Toast.LENGTH_SHORT).show();
                 }
-
                 @Override
                 public void onStartTrackingTouch(SeekBar seekBar) {
                     Toast.makeText(getApplicationContext(), "Iniciando  seekbar", Toast.LENGTH_SHORT).show();
                 }
-
                 @Override
                 public void onStopTrackingTouch(SeekBar seekBar) {
                     textView.setText("Covered: " + progress + "/" + seekBar.getMax());
@@ -50,7 +45,6 @@ public class SeekBarActivity extends AppCompatActivity {
             });
 
         Button buttonVoltar8 = findViewById(R.id.buttonVoltar8);
-
         buttonVoltar8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,8 +52,6 @@ public class SeekBarActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
-
-
         }
         private void inicializarVariaveis() {
             seekBar = findViewById(R.id.seekBar);

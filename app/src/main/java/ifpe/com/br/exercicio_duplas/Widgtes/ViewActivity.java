@@ -21,9 +21,7 @@ public class ViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view);
 
-
         ver = (View) findViewById(R.id.view);
-
         ver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
@@ -43,16 +41,11 @@ public class ViewActivity extends AppCompatActivity {
         });
 
         Button buttonVoltar1 = (Button) findViewById(R.id.buttonVoltar1);
-
         buttonVoltar1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(ViewActivity.this, MainActivity.class);
                 startActivity(it);
-
-
             }
         });
-
-
     }
 }

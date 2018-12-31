@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button buttonView = (Button) findViewById(R.id.buttonView);
-
         buttonView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, ViewActivity.class);
@@ -34,9 +33,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         Button buttonImaView = (Button) findViewById(R.id.buttonImaView);
-
         buttonImaView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, ImaViewActivity.class);
@@ -45,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button buttonWebView = (Button) findViewById(R.id.buttonWebView);
-
         buttonWebView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, WebViewActivity.class);

@@ -19,7 +19,6 @@ public class RatingBarActivity extends AppCompatActivity {
     private Button buttonEnviar;
     private RatingBar ratingBar;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,18 +30,14 @@ public class RatingBarActivity extends AppCompatActivity {
 
         ratingBar = findViewById(R.id.ratingBar);
         txtRatingValor = findViewById(R.id.txtRatingValor);
-
         ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             public void onRatingChanged(RatingBar ratingBar, float rating,
                                         boolean fromUser) {
-
                 txtRatingValor.setText(String.valueOf(rating));
             }
         });
     }
     public void addListenerOnButton() {
-
-
         buttonEnviar = findViewById(R.id.buttonEnviar);
         ratingBar = findViewById(R.id.ratingBar);
 
@@ -50,17 +45,14 @@ public class RatingBarActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-
                 Toast.makeText(RatingBarActivity.this,
                         String.valueOf(ratingBar.getRating()),
                         Toast.LENGTH_SHORT).show();
-
             }
 
         });
 
         Button buttonVoltar9 = findViewById(R.id.buttonVoltar9);
-
         buttonVoltar9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

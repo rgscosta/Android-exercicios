@@ -15,7 +15,6 @@ public class HelloCameraActivity extends AppCompatActivity {
 
      ImageView imageViewFoto;
      Button  btAbrirCamera;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

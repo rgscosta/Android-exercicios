@@ -23,7 +23,6 @@ public class VideoViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_view);
 
-
         VideoView videoView = findViewById(R.id.telaVideoView);
         String VideoPath = "android.resource://" + getPackageName() + "/" + R.raw.videoplay;
         Uri uri = Uri.parse(VideoPath);
@@ -34,7 +33,6 @@ public class VideoViewActivity extends AppCompatActivity {
         mediaController.setAnchorView(videoView);
 
         Button buttonVoltar7 = findViewById(R.id.buttonVoltar7);
-
         buttonVoltar7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

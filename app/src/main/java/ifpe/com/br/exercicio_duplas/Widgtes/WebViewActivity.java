@@ -19,7 +19,6 @@ public class WebViewActivity extends AppCompatActivity {
 
     private WebView web;
     private EditText editText;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,22 +32,18 @@ public class WebViewActivity extends AppCompatActivity {
         web.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
             }
         });
-
-
         Button buttonVoltar4 = (Button) findViewById(R.id.buttonVoltar4);
         buttonVoltar4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 Intent it = new Intent(WebViewActivity.this, MainActivity.class);
                 startActivity(it);
-
             }
         });
 
-}
+    }
     public void abriView (View v) {
 
         String url = editText.getText().toString();
@@ -67,7 +62,6 @@ public class WebViewActivity extends AppCompatActivity {
         public boolean overrideUrlLoading (WebView view, String url){
             view.loadUrl(url);
             return true;
-
         }
     }
 }

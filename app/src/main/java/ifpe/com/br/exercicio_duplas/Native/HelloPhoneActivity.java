@@ -18,7 +18,6 @@ public class HelloPhoneActivity extends AppCompatActivity implements View.OnClic
     Button btLigar;
     EditText campoTelefone;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,10 +34,7 @@ public class HelloPhoneActivity extends AppCompatActivity implements View.OnClic
                 startActivity(it);
             }
         });
-
-
     }
-
     public void onClick(View view) {
 
         EditText campoTelefone = (EditText) findViewById(R.id.edPhone);
@@ -47,12 +43,8 @@ public class HelloPhoneActivity extends AppCompatActivity implements View.OnClic
 
         Uri uri = Uri.parse("tel:"+telefone);
         Intent intent = new Intent(Intent.ACTION_DIAL,uri);
-
         startActivity(intent);
-
-
     }
-
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 

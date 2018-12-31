@@ -21,7 +21,6 @@ public class ImaViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ima_view);
 
         imagem = (ImageView) findViewById(R.id.imageViewSanta);
-
         imagem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,9 +38,7 @@ public class ImaViewActivity extends AppCompatActivity {
                         Toast.LENGTH_SHORT).show();
             }
         });
-
         Button buttonVoltar2 = (Button) findViewById(R.id.buttonVoltar2);
-
         buttonVoltar2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(ImaViewActivity.this, MainActivity.class);

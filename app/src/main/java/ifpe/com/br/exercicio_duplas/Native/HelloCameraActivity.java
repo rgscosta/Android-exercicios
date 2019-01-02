@@ -24,7 +24,6 @@ public class HelloCameraActivity extends AppCompatActivity {
 
         imageViewFoto = (ImageView) findViewById(R.id.imageViewFoto);
         btAbrirCamera = (Button) findViewById(R.id.btAbrirCamera);
-
         btAbrirCamera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

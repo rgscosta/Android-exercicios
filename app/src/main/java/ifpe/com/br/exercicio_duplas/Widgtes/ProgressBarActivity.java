@@ -19,22 +19,10 @@ public class ProgressBarActivity extends AppCompatActivity {
 
     private boolean pgAtivo; //verifica se progress está ativa
     private ProgressBar tProgressBar;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_bar);
-
-
-        Button buttonVoltar6 = (Button) findViewById(R.id.buttonVoltar6);
-        buttonVoltar6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent( ProgressBarActivity.this , MainActivity.class);
-                startActivity(it);
-            }
-        });
 
         tProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         final Thread timeThread = new Thread() {
@@ -66,11 +54,17 @@ public class ProgressBarActivity extends AppCompatActivity {
             tProgressBar.setProgress(progress);
         }
     }
-
-    private void onContinue() {
+         private void onContinue() {
         Log.d("messagemFinal", "load finalizou");
 
-
+        Button buttonVoltar6 = (Button) findViewById(R.id.buttonVoltar6);
+        buttonVoltar6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent( ProgressBarActivity.this , MainActivity.class);
+                startActivity(it);
+            }
+        });
     }
 
 }

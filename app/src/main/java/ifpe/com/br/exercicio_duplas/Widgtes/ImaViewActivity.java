@@ -14,7 +14,6 @@ import ifpe.com.br.exercicio_duplas.R;
 public class ImaViewActivity extends AppCompatActivity {
 
     private ImageView imagem;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +44,5 @@ public class ImaViewActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
-
-
     }
 }

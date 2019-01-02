@@ -18,8 +18,6 @@ public class SeekBarActivity extends AppCompatActivity {
 
     private SeekBar seekBar;
     private TextView textView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +41,6 @@ public class SeekBarActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Parando  seekbar", Toast.LENGTH_SHORT).show();
                 }
             });
-
         Button buttonVoltar8 = findViewById(R.id.buttonVoltar8);
         buttonVoltar8.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,8 +54,6 @@ public class SeekBarActivity extends AppCompatActivity {
             seekBar = findViewById(R.id.seekBar);
             textView = findViewById(R.id.textViewSeekBar);
         }
-
-
 
 }
 

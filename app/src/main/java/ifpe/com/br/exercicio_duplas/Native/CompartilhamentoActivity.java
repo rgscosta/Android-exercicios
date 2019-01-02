@@ -22,7 +22,6 @@ public class CompartilhamentoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_compartilhamento);
 
         Button buttonCompartilhar = (Button) findViewById(R.id.buttonCompartilhamento);
-
         buttonCompartilhar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,15 +30,11 @@ public class CompartilhamentoActivity extends AppCompatActivity {
                 myIntent.setType("text/plain");
                 String shareBordy = "O que vai compartilhar aqui";
                 String shareSub = "Compartilhar";
-
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
                 myIntent.putExtra(Intent.EXTRA_TEXT,shareBordy);
-
                 startActivity(Intent.createChooser(myIntent, "Share using"));
-
           }
         });
-
         Button buttonVoltar11 = (Button) findViewById(R.id.buttonVoltar11);
         buttonVoltar11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

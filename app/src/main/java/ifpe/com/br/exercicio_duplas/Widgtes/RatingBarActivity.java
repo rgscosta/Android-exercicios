@@ -18,7 +18,6 @@ public class RatingBarActivity extends AppCompatActivity {
     private TextView txtRatingValor;
     private Button buttonEnviar;
     private RatingBar ratingBar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +50,6 @@ public class RatingBarActivity extends AppCompatActivity {
             }
 
         });
-
         Button buttonVoltar9 = findViewById(R.id.buttonVoltar9);
         buttonVoltar9.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +58,5 @@ public class RatingBarActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
-
     }
 }

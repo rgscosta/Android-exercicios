@@ -29,7 +29,7 @@ public class CompartilhamentoActivity extends AppCompatActivity {
 
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String shareBordy = "Corpo";
+                String shareBordy = "O que vai compartilhar aqui";
                 String shareSub = "Compartilhar";
 
                 myIntent.putExtra(Intent.EXTRA_SUBJECT,shareSub);

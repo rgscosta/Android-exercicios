@@ -148,9 +148,21 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/buttonView"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="198dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginStart="199dp"
+        android:layout_marginBottom="26dp"
         android:text="Ligar Phone"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonCompart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="104dp"
+        android:text="Compartilhamento"
         android:textStyle="bold" />
 
 </RelativeLayout>

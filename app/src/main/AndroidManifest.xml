@@ -29,7 +29,8 @@
         <activity android:name=".Widgtes.SeekBarActivity" />
         <activity android:name=".Widgtes.RatingBarActivity" />
         <activity android:name=".Native.HelloCameraActivity" />
-        <activity android:name=".Native.HelloPhoneActivity"></activity>
+        <activity android:name=".Native.HelloPhoneActivity" />
+        <activity android:name=".Native.CompartilhamentoActivity"></activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import ifpe.com.br.exercicio_duplas.Native.CompartilhamentoActivity;
 import ifpe.com.br.exercicio_duplas.Native.HelloCameraActivity;
 import ifpe.com.br.exercicio_duplas.Native.HelloPhoneActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.CalendViewActivity;
@@ -112,6 +113,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
+        Button buttonCompart = (Button) findViewById(R.id.buttonCompart);
+        buttonCompart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, CompartilhamentoActivity.class);
+                startActivity(it);
+            }
+        });
+
 
     }
 }

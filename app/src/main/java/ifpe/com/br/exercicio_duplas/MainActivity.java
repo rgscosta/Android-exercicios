@@ -13,6 +13,7 @@ import ifpe.com.br.exercicio_duplas.Widgtes.CalendViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ImaViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ProgressBarActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.RatingBarActivity;
+import ifpe.com.br.exercicio_duplas.Widgtes.SearchViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.SeekBarActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.VideoViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ViewActivity;
@@ -119,6 +120,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this, CompartilhamentoActivity.class);
+                startActivity(it);
+            }
+        });
+
+        Button buttonSearchView = (Button) findViewById(R.id.buttonSearchView);
+        buttonSearchView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, SearchViewActivity.class);
                 startActivity(it);
             }
         });

@@ -8,14 +8,27 @@
 
 
     <Button
+        android:id="@+id/buttonSearchView"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="132dp"
+        android:layout_toStartOf="@+id/buttonFoto"
+        android:text="SearchView"
+        android:textStyle="bold" />
+
+    <Button
         android:id="@+id/buttonView"
-        android:layout_width="128dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="42dp"
         android:layout_marginTop="66dp"
-        android:layout_marginEnd="26dp"
+        android:layout_marginEnd="23dp"
         android:layout_toStartOf="@+id/buttonProgressBar"
         android:text="VIEW"
         android:textSize="14sp"

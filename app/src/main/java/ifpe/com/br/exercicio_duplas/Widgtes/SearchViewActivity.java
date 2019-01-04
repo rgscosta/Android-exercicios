@@ -38,6 +38,7 @@ public class SearchViewActivity extends AppCompatActivity {
                if (list.contains(query)) {
                    adapter.getFilter().filter(query);
               } else {
+                   //So não vai mostra se tiver com o mesmo nome sem diferença!!!!!
                    Toast.makeText(SearchViewActivity.this, "Não achou o seu time", Toast.LENGTH_LONG).show();
                }
                return false;
@@ -45,7 +46,7 @@ public class SearchViewActivity extends AppCompatActivity {
                @Override
                public boolean onQueryTextChange(String newText) {
                     adapter.getFilter().filter(newText);
-                    return false;
+                    return true;
                 }
             });
         Button buttonVoltar11 = findViewById(R.id.buttonVoltar11);

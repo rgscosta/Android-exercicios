@@ -8,14 +8,14 @@
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="224dp"
+        android:layout_width="337dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="81dp"
+        android:layout_marginStart="23dp"
         android:layout_marginTop="53dp"
-        android:layout_marginEnd="79dp" />
+        android:layout_marginEnd="24dp" />
 
     <Button
         android:id="@+id/buttonVoltar11"
@@ -31,13 +31,13 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="wrap_content"
+        android:layout_width="340dp"
         android:layout_height="306dp"
         android:layout_above="@+id/buttonVoltar11"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="72dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
         android:layout_marginBottom="29dp" />
 
     <TextView

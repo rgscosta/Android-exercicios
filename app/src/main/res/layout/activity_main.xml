@@ -9,12 +9,12 @@
 
     <Button
         android:id="@+id/buttonSearchView"
-        android:layout_width="137dp"
+        android:layout_width="156dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginEnd="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginBottom="132dp"
         android:layout_toStartOf="@+id/buttonFoto"
         android:text="SearchView"
@@ -22,13 +22,13 @@
 
     <Button
         android:id="@+id/buttonView"
-        android:layout_width="130dp"
+        android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="26dp"
         android:layout_toStartOf="@+id/buttonProgressBar"
         android:text="VIEW"
         android:textSize="14sp"
@@ -38,11 +38,11 @@
 
     <Button
         android:id="@+id/buttonImaView"
-        android:layout_width="134dp"
+        android:layout_width="152dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="23dp"
         android:layout_marginTop="118dp"
         android:layout_marginEnd="26dp"
         android:layout_toStartOf="@+id/buttonVideoView"
@@ -72,7 +72,7 @@
 
     <Button
         android:id="@+id/buttonWebView"
-        android:layout_width="wrap_content"
+        android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/buttonImaView"
         android:layout_alignParentStart="true"
@@ -87,13 +87,13 @@
 
     <Button
         android:id="@+id/buttoncalendView"
-        android:layout_width="136dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="17dp"
         android:layout_marginTop="221dp"
-        android:layout_marginEnd="26dp"
+        android:layout_marginEnd="24dp"
         android:layout_toStartOf="@+id/buttonRatingBar"
         android:text="CalenderView"
         android:textAllCaps="true"
@@ -106,21 +106,11 @@
         android:layout_alignStart="@+id/buttonVideoView"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-4dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="36dp"
         android:text="PROGESSBAR"
         android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/buttonProgressBar"
-        android:layout_marginStart="7dp"
-        android:layout_marginBottom="0dp"
-        android:layout_toEndOf="@+id/textView2"
-        android:text="Button" />
 
     <Button
         android:id="@+id/buttonVideoView"
@@ -131,21 +121,21 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="-2dp"
-        android:layout_marginTop="118dp"
+        android:layout_marginTop="117dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="346dp"
+        android:layout_marginBottom="347dp"
         android:text="VideoView"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonSeekBar"
-        android:layout_width="145dp"
+        android:layout_width="142dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/buttoncalendView"
-        android:layout_alignTop="@+id/buttonVideoView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="169dp"
         android:layout_marginEnd="40dp"
         android:text="SEERKBAR"
         android:textStyle="bold" />
@@ -156,8 +146,8 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/buttonSeekBar"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="54dp"
-        android:layout_marginEnd="41dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="40dp"
         android:text="RATINGBAR"
         android:textStyle="bold" />
 
@@ -167,8 +157,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="186dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="189dp"
         android:text="Tirar Foto"
         android:textStyle="bold" />
 
@@ -192,9 +182,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="187dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="189dp"
         android:layout_toStartOf="@+id/buttonFoto"
         android:text="Shared"
         android:textStyle="bold" />

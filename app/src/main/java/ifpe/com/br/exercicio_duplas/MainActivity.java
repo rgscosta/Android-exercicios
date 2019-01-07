@@ -4,11 +4,13 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ActionMenuView;
 import android.widget.Button;
 
 import ifpe.com.br.exercicio_duplas.Native.CompartilhamentoActivity;
 import ifpe.com.br.exercicio_duplas.Native.HelloCameraActivity;
 import ifpe.com.br.exercicio_duplas.Native.HelloPhoneActivity;
+import ifpe.com.br.exercicio_duplas.Widgtes.ActionBarActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.CalendViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ImaViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ProgressBarActivity;
@@ -132,6 +134,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
+
+
+        Button  buttonActionBar = (Button) findViewById(R.id. buttonActionBar);
+        buttonActionBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, ActionBarActivity.class);
+                startActivity(it);
+            }
+        });
+
 
 
     }

@@ -31,7 +31,8 @@
         <activity android:name=".Native.HelloCameraActivity" />
         <activity android:name=".Native.HelloPhoneActivity" />
         <activity android:name=".Native.CompartilhamentoActivity" />
-        <activity android:name=".Widgtes.SearchViewActivity"></activity>
+        <activity android:name=".Widgtes.SearchViewActivity" />
+        <activity android:name=".Widgtes.ActionBarActivity"></activity>
     </application>
 
 </manifest>

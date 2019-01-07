@@ -9,27 +9,23 @@
 
     <Button
         android:id="@+id/buttonSearchView"
-        android:layout_width="156dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="25dp"
         android:layout_marginBottom="132dp"
-        android:layout_toStartOf="@+id/buttonFoto"
         android:text="SearchView"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonView"
-        android:layout_width="135dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="21dp"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="26dp"
-        android:layout_toStartOf="@+id/buttonProgressBar"
         android:text="VIEW"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -38,14 +34,12 @@
 
     <Button
         android:id="@+id/buttonImaView"
-        android:layout_width="152dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="23dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="118dp"
-        android:layout_marginEnd="26dp"
-        android:layout_toStartOf="@+id/buttonVideoView"
         android:text="IMAGEM VIEW"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -72,16 +66,12 @@
 
     <Button
         android:id="@+id/buttonWebView"
-        android:layout_width="135dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/buttonImaView"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="171dp"
-        android:layout_marginEnd="207dp"
-        android:layout_marginBottom="-53dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="169dp"
         android:text="WEB VIEW"
         android:textStyle="bold" />
 
@@ -91,102 +81,107 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="221dp"
-        android:layout_marginEnd="24dp"
-        android:layout_toStartOf="@+id/buttonRatingBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginBottom="245dp"
         android:text="CalenderView"
         android:textAllCaps="true"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonProgressBar"
-        android:layout_width="148dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/buttonVideoView"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-2dp"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="20dp"
         android:text="PROGESSBAR"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonVideoView"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/buttonRatingBar"
+        android:layout_width="160dp"
+        android:layout_height="44dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginTop="117dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="347dp"
         android:text="VideoView"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonSeekBar"
-        android:layout_width="142dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="202dp"
-        android:layout_marginTop="169dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="19dp"
         android:text="SEERKBAR"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonRatingBar"
-        android:layout_width="143dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/buttonSeekBar"
+        android:layout_alignTop="@+id/buttoncalendView"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="53dp"
-        android:layout_marginEnd="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="244dp"
         android:text="RATINGBAR"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonFoto"
-        android:layout_width="142dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="41dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="189dp"
         android:text="Tirar Foto"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/buttonLigar"
-        android:layout_width="130dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="132dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="13dp"
         android:text="Ligar Phone"
         android:textStyle="bold" />
 
 
     <Button
         android:id="@+id/buttonCompart"
-        android:layout_width="137dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginStart="21dp"
         android:layout_marginBottom="189dp"
-        android:layout_toStartOf="@+id/buttonFoto"
         android:text="Shared"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonActionBar"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="132dp"
+        android:text="ActionBar"
         android:textStyle="bold" />
 
 </RelativeLayout>

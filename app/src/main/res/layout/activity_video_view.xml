@@ -17,26 +17,26 @@
 
     <Button
         android:id="@+id/buttonVoltar7"
-        android:layout_width="wrap_content"
+        android:layout_width="114dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="148dp"
-        android:layout_marginEnd="148dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="136dp"
         android:layout_marginBottom="103dp"
         android:text="Voltar" />
 
     <TextView
         android:id="@+id/textViewinformation"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="98dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="170dp"
         android:text="Aperte na tela e de Play"
         android:textSize="18sp" />
 </RelativeLayout>

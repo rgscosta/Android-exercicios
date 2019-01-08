@@ -184,14 +184,4 @@
         android:text="ActionBar"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/buttonTESTE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="37dp"
-        android:text="Teste" />
-
 </RelativeLayout>

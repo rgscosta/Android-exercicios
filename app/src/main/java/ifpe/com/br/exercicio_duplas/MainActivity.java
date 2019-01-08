@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ActionMenuView;
 import android.widget.Button;
 
 import ifpe.com.br.exercicio_duplas.Native.CompartilhamentoActivity;
@@ -145,6 +144,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
+        Button  buttonTESTE = (Button) findViewById(R.id. buttonTESTE);
+        buttonTESTE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this, TESTEActivity.class);
+                startActivity(it);
+            }
+        });
+
 
 
 

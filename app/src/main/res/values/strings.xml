@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Exercicio_Duplas</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refesh</string>
+
 </resources>

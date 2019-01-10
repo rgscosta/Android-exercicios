@@ -184,4 +184,17 @@
         android:text="ActionBar"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/buttonContatos"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonSeekBar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="81dp"
+        android:text="CONTATOS"
+        android:textStyle="bold" />
+
 </RelativeLayout>

@@ -9,6 +9,7 @@ import android.widget.Button;
 import ifpe.com.br.exercicio_duplas.Native.CompartilhamentoActivity;
 import ifpe.com.br.exercicio_duplas.Native.HelloCameraActivity;
 import ifpe.com.br.exercicio_duplas.Native.HelloPhoneActivity;
+import ifpe.com.br.exercicio_duplas.Native.ListadeContatosActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ActionBarActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.CalendViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ImaViewActivity;
@@ -134,8 +135,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
         Button  buttonActionBar = (Button) findViewById(R.id. buttonActionBar);
         buttonActionBar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -145,16 +144,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button  buttonTESTE = (Button) findViewById(R.id. buttonTESTE);
-        buttonTESTE.setOnClickListener(new View.OnClickListener() {
+        Button  buttonContatos= (Button) findViewById(R.id. buttonContatos);
+        buttonContatos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, TESTEActivity.class);
+                Intent it = new Intent(MainActivity.this, ListadeContatosActivity.class);
                 startActivity(it);
             }
         });
-
-
 
 
     }

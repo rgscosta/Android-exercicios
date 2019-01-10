@@ -22,6 +22,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="77dp"
         android:text="Abrir Camera"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="245dp"
         tools:layout_editor_absoluteY="411dp" />
 </RelativeLayout>

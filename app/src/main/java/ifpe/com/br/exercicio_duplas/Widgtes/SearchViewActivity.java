@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -30,6 +31,13 @@ public class SearchViewActivity extends AppCompatActivity {
         inicializarVariaveis();
             adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
             listView.setAdapter(adapter);
+
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Toast.makeText(getApplicationContext(), "Time: " + list.get(position).toString(), Toast.LENGTH_SHORT).show();
+                }
+            });
 
             searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                 @Override

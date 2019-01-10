@@ -67,6 +67,7 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="20dp"
         android:onClick="abriView"
-        android:text="Abrir URL" />
+        android:text="Abrir URL"
+        android:textStyle="bold" />
 
 </RelativeLayout>

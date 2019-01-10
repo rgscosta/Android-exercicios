@@ -27,6 +27,7 @@
         android:layout_marginEnd="138dp"
         android:layout_marginBottom="188dp"
         android:text="Voltar"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="281dp" />
 

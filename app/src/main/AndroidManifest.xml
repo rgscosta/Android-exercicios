@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ifpe.com.br.exercicio_duplas">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -39,6 +40,11 @@
         <activity android:name=".Widgtes.SearchViewActivity" />
         <activity android:name=".Widgtes.ActionBarActivity" />
         <activity android:name=".Native.ListadeContatosActivity" />
+        <activity
+            android:name=".Native.ContatosActivity"
+            android:label="@string/title_activity_contatos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ContatosActivity"></activity>
     </application>
 
 </manifest>

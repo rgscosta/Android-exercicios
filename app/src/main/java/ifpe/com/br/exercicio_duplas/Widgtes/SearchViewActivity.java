@@ -67,7 +67,7 @@ public class SearchViewActivity extends AppCompatActivity {
         });
         }
         private void inicializarVariaveis() {
-            searchView = findViewById(R.id.searchView);
-            listView = findViewById(R.id.listView);
+                searchView = findViewById(R.id.searchView);
+                listView = findViewById(R.id.listView);
         }
     }

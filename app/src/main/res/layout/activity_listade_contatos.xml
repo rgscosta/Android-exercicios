@@ -6,29 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Native.ListadeContatosActivity">
 
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="323dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="36dp" />
-
-    <ListView
-        android:layout_width="302dp"
-        android:layout_height="293dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="137dp"
-        android:layout_marginEnd="46dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="57dp" />
-
     <Button
         android:id="@+id/buttonVoltar12"
         android:layout_width="129dp"
@@ -42,18 +19,32 @@
         android:text="Voltar"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewContatos"
-        android:layout_width="213dp"
-        android:layout_height="40dp"
+    <Button
+        android:id="@+id/buttonConecta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="85dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="86dp"
-        android:text="Lista de Contatos"
-        android:textAllCaps="true"
-        android:textSize="18sp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="85dp"
+        android:text="Teste de Conecção"
+        android:textSize="14sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonContatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="116dp"
+        android:text="Listar Contatos"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
 </RelativeLayout>

@@ -7,19 +7,11 @@ import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.SearchView;
 import android.widget.Toast;
-
-import java.util.Arrays;
-import java.util.List;
 
 import ifpe.com.br.exercicio_duplas.MainActivity;
 import ifpe.com.br.exercicio_duplas.R;
-import ifpe.com.br.exercicio_duplas.Widgtes.SearchViewActivity;
 
 public class ListadeContatosActivity extends AppCompatActivity {
 

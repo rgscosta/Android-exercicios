@@ -40,11 +40,7 @@
         <activity android:name=".Widgtes.SearchViewActivity" />
         <activity android:name=".Widgtes.ActionBarActivity" />
         <activity android:name=".Native.ListadeContatosActivity" />
-        <activity
-            android:name=".Native.ContatosActivity"
-            android:label="@string/title_activity_contatos"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ContatosActivity"></activity>
+        <activity android:name=".Native.ContatosActivity"></activity>
     </application>
 
 </manifest>

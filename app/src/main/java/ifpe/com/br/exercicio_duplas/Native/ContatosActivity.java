@@ -50,7 +50,7 @@ public class ContatosActivity extends AppCompatActivity {
 
         int[] to = {android.R.id.text1, android.R.id.text2};
 
-        SimpleCursorAdapter simpleCursorAdapter = new SimpleCursorAdapter(getApplicationContext(), android.R.layout.simple_list_item_2, cursor, from, to);
+        SimpleCursorAdapter simpleCursorAdapter = new SimpleCursorAdapter(getApplicationContext(), android.R.layout.simple_expandable_list_item_2, cursor, from, to);
          listView.setAdapter(simpleCursorAdapter);
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
     }

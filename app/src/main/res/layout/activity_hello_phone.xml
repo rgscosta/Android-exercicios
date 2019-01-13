@@ -35,6 +35,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="49dp"
         android:layout_marginEnd="27dp"
+        android:gravity="center"
         android:text=" Ligar "
         tools:layout_editor_absoluteX="256dp"
         tools:layout_editor_absoluteY="16dp" />
@@ -50,6 +51,7 @@
         android:layout_marginStart="121dp"
         android:layout_marginEnd="120dp"
         android:layout_marginBottom="87dp"
+        android:gravity="center"
         android:text="Voltar"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="137dp"

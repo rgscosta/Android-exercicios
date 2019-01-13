@@ -9,6 +9,7 @@
 
     <View
         android:id="@+id/view"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -27,6 +28,7 @@
         android:layout_marginStart="117dp"
         android:layout_marginEnd="117dp"
         android:layout_marginBottom="192dp"
+        android:gravity="center"
         android:text="Voltar"
         android:textSize="18sp"
         android:textStyle="bold"

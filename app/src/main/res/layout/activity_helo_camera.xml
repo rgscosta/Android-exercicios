@@ -21,6 +21,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="77dp"
+        android:gravity="center"
         android:text="Abrir Camera"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="245dp"

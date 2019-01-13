@@ -18,6 +18,7 @@
         android:layout_marginTop="149dp"
         android:layout_marginEnd="111dp"
         android:text="ActionBar "
+        android:gravity="center"
         android:textAllCaps="true"
         android:textSize="24sp"
         android:textStyle="bold" />

@@ -38,6 +38,7 @@
         android:layout_marginStart="-126dp"
         android:layout_marginTop="220dp"
         android:layout_toEndOf="@+id/lblResultado"
+        android:gravity="center"
         android:text="Enviar" />
 
 
@@ -72,6 +73,7 @@
         android:layout_marginStart="133dp"
         android:layout_marginEnd="134dp"
         android:layout_marginBottom="83dp"
+        android:gravity="center"
         android:text="Voltar"
         android:textStyle="bold" />
 

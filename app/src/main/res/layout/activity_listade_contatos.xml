@@ -16,6 +16,7 @@
         android:layout_marginStart="128dp"
         android:layout_marginEnd="127dp"
         android:layout_marginBottom="12dp"
+        android:gravity="center"
         android:text="Voltar"
         android:textStyle="bold" />
 
@@ -29,6 +30,7 @@
         android:layout_marginStart="85dp"
         android:layout_marginTop="208dp"
         android:layout_marginEnd="85dp"
+        android:gravity="center"
         android:text="Teste de Conexão"
         android:textSize="14sp"
         android:textStyle="bold" />
@@ -43,6 +45,7 @@
         android:layout_marginStart="119dp"
         android:layout_marginTop="116dp"
         android:layout_marginEnd="116dp"
+        android:gravity="center"
         android:text="Listar Contatos"
         android:textSize="14sp"
         android:textStyle="bold" />

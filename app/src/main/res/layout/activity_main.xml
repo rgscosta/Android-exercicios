@@ -15,6 +15,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="132dp"
+        android:gravity="center"
         android:text="SearchView"
         android:textStyle="bold" />
 
@@ -27,6 +28,7 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="64dp"
         android:text="VIEW"
+        android:gravity="center"
         android:textSize="14sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="44dp"
@@ -40,6 +42,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="118dp"
+        android:gravity="center"
         android:text="IMAGEM VIEW"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -56,6 +59,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="0dp"
+        android:gravity="center"
         android:text="Exercicio Duplas"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -72,6 +76,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="21dp"
         android:layout_marginTop="169dp"
+        android:gravity="center"
         android:text="WEB VIEW"
         android:textStyle="bold" />
 
@@ -85,6 +90,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="219dp"
         android:layout_marginBottom="245dp"
+        android:gravity="center"
         android:text="CalenderView"
         android:textAllCaps="true"
         android:textStyle="bold" />
@@ -97,6 +103,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="20dp"
+        android:gravity="center"
         android:text="PROGESSBAR"
         android:textStyle="bold" />
 
@@ -110,6 +117,7 @@
         android:layout_marginTop="118dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="347dp"
+        android:gravity="center"
         android:text="VideoView"
         android:textStyle="bold" />
 
@@ -121,6 +129,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="170dp"
         android:layout_marginEnd="19dp"
+        android:gravity="center"
         android:text="SEERKBAR"
         android:textStyle="bold" />
 
@@ -134,6 +143,7 @@
         android:layout_marginTop="-1dp"
         android:layout_marginEnd="21dp"
         android:layout_marginBottom="244dp"
+        android:gravity="center"
         android:text="RATINGBAR"
         android:textStyle="bold" />
 
@@ -145,6 +155,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="189dp"
+        android:gravity="center"
         android:text="Tirar Foto"
         android:textStyle="bold" />
 
@@ -158,6 +169,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="204dp"
         android:layout_marginBottom="13dp"
+        android:gravity="center"
         android:text="Ligar Phone"
         android:textStyle="bold" />
 
@@ -170,6 +182,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="21dp"
         android:layout_marginBottom="189dp"
+        android:gravity="center"
         android:text="Shared"
         android:textStyle="bold" />
 
@@ -181,6 +194,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="132dp"
+        android:gravity="center"
         android:text="ActionBar"
         android:textStyle="bold" />
 
@@ -194,6 +208,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="81dp"
+        android:gravity="center"
         android:text="CONTATOS"
         android:textStyle="bold" />
 

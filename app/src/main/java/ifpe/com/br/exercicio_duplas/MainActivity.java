@@ -21,138 +21,108 @@ import ifpe.com.br.exercicio_duplas.Widgtes.VideoViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.ViewActivity;
 import ifpe.com.br.exercicio_duplas.Widgtes.WebViewActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         Button buttonView = (Button) findViewById(R.id.buttonView);
-        buttonView.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, ViewActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonImaView = (Button) findViewById(R.id.buttonImaView);
-        buttonImaView.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, ImaViewActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonWebView = (Button) findViewById(R.id.buttonWebView);
-        buttonWebView.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, WebViewActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttoncalendView = (Button) findViewById(R.id.buttoncalendView);
-        buttoncalendView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, CalendViewActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonProgressBar = (Button) findViewById(R.id.buttonProgressBar);
-        buttonProgressBar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, ProgressBarActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonVideoView = (Button) findViewById(R.id.buttonVideoView);
-        buttonVideoView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, VideoViewActivity.class);
-                startActivity(it);
-            }
-        });
-
-
         Button buttonSeekBar = (Button) findViewById(R.id.buttonSeekBar);
-        buttonSeekBar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, SeekBarActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonRatingBar = (Button) findViewById(R.id.buttonRatingBar);
-        buttonRatingBar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, RatingBarActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonFoto = (Button) findViewById(R.id.buttonFoto);
-        buttonFoto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, HelloCameraActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonLigar = (Button) findViewById(R.id.buttonLigar);
-        buttonLigar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, HelloPhoneActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonCompart = (Button) findViewById(R.id.buttonCompart);
-        buttonCompart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, CompartilhamentoActivity.class);
-                startActivity(it);
-            }
-        });
-
         Button buttonSearchView = (Button) findViewById(R.id.buttonSearchView);
-        buttonSearchView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, SearchViewActivity.class);
-                startActivity(it);
-            }
-        });
+        Button buttonActionBar = (Button) findViewById(R.id. buttonActionBar);
+        Button buttonContatos= (Button) findViewById(R.id. buttonContatos);
 
-        Button  buttonActionBar = (Button) findViewById(R.id. buttonActionBar);
-        buttonActionBar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, ActionBarActivity.class);
-                startActivity(it);
-            }
-        });
+        buttonView.setOnClickListener(this);
+        buttonImaView.setOnClickListener(this);
+        buttonWebView.setOnClickListener(this);
+        buttoncalendView.setOnClickListener(this);
+        buttonProgressBar.setOnClickListener(this);
+        buttonVideoView.setOnClickListener(this);
+        buttonSeekBar.setOnClickListener(this);
+        buttonRatingBar.setOnClickListener(this);
+        buttonFoto.setOnClickListener(this);
+        buttonLigar.setOnClickListener(this);
+        buttonCompart.setOnClickListener(this);
+        buttonSearchView.setOnClickListener(this);
+        buttonActionBar.setOnClickListener(this);
+        buttonContatos.setOnClickListener(this);
+    }
 
-        Button  buttonContatos= (Button) findViewById(R.id. buttonContatos);
-        buttonContatos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent it = new Intent(MainActivity.this, ListadeContatosActivity.class);
-                startActivity(it);
-            }
-        });
 
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+
+            case R.id.buttonView :
+                Intent View = new Intent(MainActivity.this, ViewActivity.class);
+                startActivity(View);
+                break;
+            case R.id.buttonImaView :
+                Intent ImaView = new Intent(MainActivity.this, ImaViewActivity.class);
+                startActivity(ImaView);
+                break;
+            case R.id.buttonWebView :
+                Intent WebView = new Intent(MainActivity.this, WebViewActivity.class);
+                startActivity(WebView);
+                break;
+            case R.id.buttoncalendView :
+                Intent calendView = new Intent(MainActivity.this, CalendViewActivity.class);
+                startActivity(calendView);
+                break;
+            case R.id.buttonProgressBar :
+                Intent ProgressBar = new Intent(MainActivity.this, ProgressBarActivity.class);
+                startActivity(ProgressBar);
+                break;
+            case R.id.buttonVideoView :
+                Intent VideoView = new Intent(MainActivity.this, VideoViewActivity.class);
+                startActivity(VideoView);
+                break;
+            case R.id.buttonSeekBar:
+                Intent SeekBar = new Intent(MainActivity.this, SeekBarActivity.class);
+                startActivity(SeekBar);
+                break;
+            case R.id.buttonRatingBar :
+                Intent RatingBar = new Intent(MainActivity.this, RatingBarActivity.class);
+                startActivity(RatingBar);
+                break;
+            case R.id.buttonFoto :
+                Intent HelloCamera = new Intent(MainActivity.this, HelloCameraActivity.class);
+                startActivity(HelloCamera);
+                break;
+            case R.id.buttonLigar :
+                Intent HelloPhone = new Intent(MainActivity.this, HelloPhoneActivity.class);
+                startActivity(HelloPhone);
+                break;
+            case R.id.buttonCompartilhamento :
+                Intent Compartilhamento = new Intent(MainActivity.this, CompartilhamentoActivity.class);
+                startActivity(Compartilhamento);
+                break;
+            case R.id.buttonSearchView :
+                Intent SearchView = new Intent(MainActivity.this, SearchViewActivity.class);
+                startActivity(SearchView);;
+                break;
+            case R.id.buttonActionBar :
+                Intent ActionBarActivity = new Intent(MainActivity.this, ActionBarActivity.class);
+                startActivity(ActionBarActivity);
+                break;
+            case R.id.buttonContatos :
+                Intent ListadeContatos = new Intent(MainActivity.this, ListadeContatosActivity.class);
+                startActivity(ListadeContatos);
+                break;
+        }
 
     }
 }
